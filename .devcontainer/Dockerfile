@@ -22,9 +22,8 @@ RUN apt-get update \
     # Verify git, process tools installed
     && apt-get -y install git iproute2 procps lsb-release \
     #
-    # Install ruby-debug-ide and debase
-    && gem install ruby-debug-ide \
-    && gem install debase \
+    # Install bundler
+    && gem install bundler \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid $USER_GID $USERNAME \
