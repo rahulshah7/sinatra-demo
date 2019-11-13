@@ -9,3 +9,11 @@ end
 get '/secret' do
   'Your mum makes tasty food!'
 end
+
+get '/rahul' do
+  'This is rahul\'s page!'
+end
+
+get '/joanne' do
+  "This is Joanne's page!"
+end
