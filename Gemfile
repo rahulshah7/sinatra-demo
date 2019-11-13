@@ -11,5 +11,6 @@ group :development, :test do
   gem 'rspec', require: false
   gem 'rubocop', require: false
   gem 'ruby-debug-ide', require: false
+  gem 'shotgun'
   gem 'solargraph', require: false
 end
