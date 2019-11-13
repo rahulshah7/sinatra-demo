@@ -17,3 +17,7 @@ end
 get '/joanne' do
   "This is Joanne's page!"
 end
+
+get '/cat' do
+  '<img style="border: 10px dotted red;" src="http://bit.ly/1eze8aE">'
+end
